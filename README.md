@@ -6,6 +6,6 @@ CQRS means Command and Query Responsibility Segregation, the pattern which separ
 
 CQRS is one of the important pattern when querying between microservices. We can use CQRS design pattern in order to avoid complex queries to get rid of inefficient joins. CQRS stands for Command and Query Responsibility Segregation. Basically this pattern separates read and update operations for a database.
 
-#SpringBoot implementation
+# SpringBoot implementation
 
 The springboot application contains the command and query packages which deals with the command and queries by aggregates and projections respectivelly. Also, there is a Event sourcing applied using the Axon framework.
